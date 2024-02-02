@@ -1,6 +1,9 @@
 server:
+<<<<<<< HEAD
   #address: 192.168.18.40
   address: 10.0.6.167
+=======
+>>>>>>> 4e6fe2a4ff4c1e5f544e952d0d80035e94e76fa1
   port: 8081
   error:
     include-message: always
@@ -18,7 +21,13 @@ spring:
     schemas: public
 
   datasource:
+<<<<<<< HEAD
     url: jdbc:postgresql://mahmud.db.elephantsql.com/zvyskgoc?socketTimeout=3
     username: zvyskgoc
     password: y5fzrZDNXO3m3IxEBqpicTJ0OxmNmu1W
+=======
+    url: jdbc:postgresql://rajje.db.elephantsql.com:5432/nowznfyd?socketTimeout=3
+    username: nowznfyd
+    password: ktaCqM8sgYZ_5w-gG24yzYRdTYhaEgqI
+>>>>>>> 4e6fe2a4ff4c1e5f544e952d0d80035e94e76fa1
     driverClassName: org.postgresql.Driver
